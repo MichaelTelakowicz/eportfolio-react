@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "git switch gh-pages && npm run build && cd ./build && git add --force --all ./build && git commit -m 'deploy' && git push",
+    "predeploy": "git switch gh-pages && npm run build && git add --force build/\\* && git commit -m 'deploy' && git push",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
