@@ -145,7 +145,7 @@ function App() {
             data-aos="zoom-in"
             data-aos-duration="700"
           >
-            <h1 className="title">Hey</h1>
+            <h1 className="title">Hello</h1>
             <h1 className="title second--title purple">I'm Michael.</h1>
             <p className="header__para">
               I'm a <span className="purple">Full-Stack Developer</span> driven
